@@ -1,63 +1,60 @@
-import kagglehub
 import pandas as pd
-import os
+import glob
 
+def load_reddit_data(file_pattern, chunk_size=None):
 
-def download_reddit_data_kaggle(destination_folder):
     try:
-        # Ensure the folder exists
-        os.makedirs(destination_folder, exist_ok=True)
+        # Get list of all CSV files matching the pattern
+        csv_files = glob.glob(file_pattern)
         
-        # Update to the correct dataset URL
-        dataset_name = "kamaruladha/mental-health-in-tech-survey-2016"
-        
-        # Download the dataset to the specified folder
-        path = kagglehub.dataset_download(dataset_name, destination_folder)
-        print(f"Successfully downloaded dataset to: {path}")
-        return path
-        
-    except kagglehub.exceptions.KaggleApiHTTPError as e:
-        print(f"Error downloading dataset: {e}")
-        print("\nPlease ensure:")
-        print("1. You have a valid Kaggle account")
-        print("2. You have accepted the dataset terms on Kaggle")
-        print("3. You have configured your Kaggle API credentials")
-        return None
-    except Exception as e:
-        print(f"Unexpected error: {e}")
-        return None
-
-
-def load_reddit_data_csv(file_path, chunk_size=None):
-    try:
-        # For CSV files:
-        chunk_generator = pd.read_csv(file_path, chunksize=chunk_size, encoding='utf-8')
-        
-        for chunk in chunk_generator:
-            print(f"Loaded chunk with {len(chunk)} rows.")
-            # Process your chunks here
+        if not csv_files:
+            raise FileNotFoundError(f"No CSV files found matching pattern: {file_pattern}")
             
-        return chunk_generator
+        print(f"Found {len(csv_files)} CSV files")
         
-    except FileNotFoundError:
-        print(f"Error: File not found at {file_path}")
-        return None
+        # List to store all dataframes
+        dfs = []
+        
+        for file_path in csv_files:
+            print(f"\nProcessing file: {file_path}")
+            
+            if chunk_size:
+                # Read in chunks
+                chunk_list = []
+                for chunk in pd.read_csv(file_path, chunksize=chunk_size, encoding='utf-8'):
+                    chunk_list.append(chunk)
+                df = pd.concat(chunk_list)
+            else:
+                # Read entire file
+                df = pd.read_csv(file_path, encoding='utf-8')
+            
+            dfs.append(df)
+        
+        # Combine all dataframes
+        final_df = pd.concat(dfs, ignore_index=True)
+        
+        # Display basic information about the dataset
+        print("\nDataset Info:")
+        print(f"Total rows: {len(final_df)}")
+        print(f"Columns: {final_df.columns.tolist()}")
+        print("\nFirst 5 rows:")
+        print(final_df.head())
+        
+        # Display dataset description
+        print("\nDataset Description:")
+        print(final_df.describe(include='all'))
+        
+        # Display data types and non-null counts
+        print("\nDataset Details:")
+        print(final_df.info())
+        
+        return final_df
+        
     except Exception as e:
         print(f"Error loading data: {e}")
         return None
 
-
 # Example usage:
 if __name__ == "__main__":
-    # Download the data
-    #data_path = download_reddit_data_kaggle("./dataset")
-    
-    # Load the data
-    current_path = os.getcwd()
-    # csv_file = current_path +"/dataset/reddit-mental-health-data/versions/1/data_to_be_cleansed.csv" # Update filename as needed
-    csv_file = "/Users/bo/Desktop/uni_of_the_cumberland/Spring2025/MSAI-532/week4/dataset/reddit-mental-health-data/versions/1/data_to_be_cleansed.csv"
-    load_reddit_data_csv(csv_file, chunk_size=200)
-
-
-
-    
+    data_path = "./week4/dataset/3941387/*.csv"
+    df = load_reddit_data(data_path, chunk_size=200)
