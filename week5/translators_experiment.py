@@ -10,7 +10,7 @@ def load_text_from_file(file_path, word_limit=100):
 
 #Load first 100 words from sample_english.txt
 file_path = "sample_english.txt"  
-selected_text = load_text_from_file(file_path)
+selected_text = load_text_from_file(file_path,100)
 
 # Translate from English to French
 src_lang = "en"
