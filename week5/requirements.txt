@@ -1,0 +1,4 @@
+deep-translator==1.11.4
+sentencepiece==0.1.99
+transformers
+sacremoses 

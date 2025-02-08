@@ -1,0 +1,140 @@
+Original Text (First 100 words from sample.txt):
+Google's Neural Machine Translation (GNMT) architecture system works like a well-coordinated team of networks, breaking down the translation process into three key parts: the encoder, attention module, and decoder. The encoder LSTM layers, running on multiple GPUs, help the model understand the meaning of the input sentence by converting words into numbers. The attention module ensures that the model focuses on the right words at the right time, rather than translating blindly. Finally, the decoder LSTM generates the translated sentence step by step, using Softmax to choose the best words. This entire process makes translations faster, smoother, and more accurate,
+
+Model 1 (Hugging Face - Helsinki-NLP/opus-mt-en-fr):
+Le système d'architecture de Google Neural Machine Translation (GNMT) fonctionne comme une équipe de réseaux bien coordonnée, répartissant le processus de traduction en trois parties clés : l'encodeur, le module d'attention et le décodeur. L'encodeur LSTM couches, fonctionnant sur plusieurs GPU, aident le modèle à comprendre la signification de la phrase d'entrée en convertissant les mots en nombres. Le module d'attention assure que le modèle se concentre sur les bons mots au bon moment, plutôt que de traduire aveuglément. Enfin, le décodeur LSTM génère la phrase traduite étape par étape, en utilisant Softmax pour choisir les meilleurs mots.
+
+Model 2 (Google Translate API):
+Le système d'architecture de la traduction de la machine neurale de Google (GNMT) fonctionne comme une équipe de réseaux bien coordonnée, décomposant le processus de traduction en trois parties clés: l'encodeur, le module d'attention et le décodeur. Les couches LSTM de l'encodeur, fonctionnant sur plusieurs GPU, aident le modèle à comprendre la signification de la phrase d'entrée en convertissant des mots en nombres. Le module d'attention garantit que le modèle se concentre sur les bons mots au bon moment, plutôt que de traduire aveuglément. Enfin, le décodeur LSTM génère la phrase traduite étape par étape, en utilisant softmax pour choisir les meilleurs mots. Tout ce processus rend les traductions plus rapides, plus lisses et plus précises,
+
+Detailed Differences Analysis (Translation that appear in both models are marked as SAME
+while the ones that appear in only one model are marked as Google only or HuggingFace only):
+
+------------------------------Differences------------------------------
+SAME: Le
+SAME: système
+SAME: d'architecture
+SAME: de
+Google only: la
+Google only: traduction
+Google only: de
+Google only: la
+Google only: machine
+Google only: neurale
+Google only: de
+SAME: Google
+HuggingFace only: Neural
+HuggingFace only: Machine
+HuggingFace only: Translation
+SAME: (GNMT)
+SAME: fonctionne
+SAME: comme
+SAME: une
+SAME: équipe
+SAME: de
+SAME: réseaux
+SAME: bien
+SAME: coordonnée,
+HuggingFace only: répartissant
+Google only: décomposant
+SAME: le
+SAME: processus
+SAME: de
+SAME: traduction
+SAME: en
+SAME: trois
+SAME: parties
+HuggingFace only: clés
+Google only: clés:
+HuggingFace only: :
+SAME: l'encodeur,
+SAME: le
+SAME: module
+SAME: d'attention
+SAME: et
+SAME: le
+SAME: décodeur.
+HuggingFace only: L'encodeur
+Google only: Les
+Google only: couches
+SAME: LSTM
+HuggingFace only: couches,
+Google only: de
+Google only: l'encodeur,
+SAME: fonctionnant
+SAME: sur
+SAME: plusieurs
+SAME: GPU,
+SAME: aident
+SAME: le
+SAME: modèle
+SAME: à
+SAME: comprendre
+SAME: la
+SAME: signification
+SAME: de
+SAME: la
+SAME: phrase
+SAME: d'entrée
+SAME: en
+SAME: convertissant
+HuggingFace only: les
+Google only: des
+SAME: mots
+SAME: en
+SAME: nombres.
+SAME: Le
+SAME: module
+SAME: d'attention
+HuggingFace only: assure
+Google only: garantit
+SAME: que
+SAME: le
+SAME: modèle
+SAME: se
+SAME: concentre
+SAME: sur
+SAME: les
+SAME: bons
+SAME: mots
+SAME: au
+SAME: bon
+SAME: moment,
+SAME: plutôt
+SAME: que
+SAME: de
+SAME: traduire
+SAME: aveuglément.
+SAME: Enfin,
+SAME: le
+SAME: décodeur
+SAME: LSTM
+SAME: génère
+SAME: la
+SAME: phrase
+SAME: traduite
+SAME: étape
+SAME: par
+SAME: étape,
+SAME: en
+SAME: utilisant
+HuggingFace only: Softmax
+Google only: softmax
+SAME: pour
+SAME: choisir
+SAME: les
+SAME: meilleurs
+SAME: mots.
+Google only: Tout
+Google only: ce
+Google only: processus
+Google only: rend
+Google only: les
+Google only: traductions
+Google only: plus
+Google only: rapides,
+Google only: plus
+Google only: lisses
+Google only: et
+Google only: plus
+Google only: précises,

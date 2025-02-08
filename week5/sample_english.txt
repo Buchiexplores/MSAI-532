@@ -1,0 +1,6 @@
+Google's Neural Machine Translation (GNMT) architecture system works like a well-coordinated team of networks, 
+breaking down the translation process into three key parts: the encoder, attention module, and decoder. 
+The encoder LSTM layers, running on multiple GPUs, help the model understand the meaning of the input sentence by converting words into numbers. 
+The attention module ensures that the model focuses on the right words at the right time, rather than translating blindly.
+Finally, the decoder LSTM generates the translated sentence step by step, using Softmax to choose the best words. 
+This entire process makes translations faster, smoother, and more accurate, producing natural and fluent results instead of awkward, word-for-word conversions.
