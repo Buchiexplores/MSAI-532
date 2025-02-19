@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="1LJcJj57PwwE326raOM7">
+    <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fnUQDuPU55SN1gFDPcQX-1" target="fnUQDuPU55SN1gFDPcQX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-1" value="&lt;p style=&quot;margin: 0in;&quot; align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Cybernetics &amp;amp; Control Science.&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in;&quot; align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Times New Roman&quot;&gt;(Early theories of adaption and learning)&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fnUQDuPU55SN1gFDPcQX-2" target="fnUQDuPU55SN1gFDPcQX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-2" value="&lt;b&gt;&amp;nbsp;Early Neural Networks &amp;amp; Perceptrons&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;(Rosenblatt’s perceptron, Novikoff theorem, 1950s-1960s)" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="215" y="240" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fnUQDuPU55SN1gFDPcQX-5" target="fnUQDuPU55SN1gFDPcQX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-5" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp;Deterministic &amp;amp; Stochastic Learning Approaches&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;(Pattern recognition, Support Vector Machines (SVMs),&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; Vapnik-Chervonenkis theory, 1960s-1980s)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fnUQDuPU55SN1gFDPcQX-7" target="fnUQDuPU55SN1gFDPcQX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-7" value="&amp;nbsp; &amp;nbsp;&lt;b&gt;Machine Learning as a Standalone Discipline&lt;/b&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp;(Neural networks, backpropagation, emergence of ML&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; research community, 1980s-1990s)" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="210" y="480" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fnUQDuPU55SN1gFDPcQX-9" target="fnUQDuPU55SN1gFDPcQX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-9" value="&amp;nbsp; &lt;b&gt;Deep Learning Revolution&lt;/b&gt;&lt;b&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp;(CNNs, RNNs, breakthroughs in GPU computing, 2000s)" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="205" y="600" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fnUQDuPU55SN1gFDPcQX-11" target="fnUQDuPU55SN1gFDPcQX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-11" value="&amp;nbsp; &lt;b&gt;Advances in Natural Language Processing (NLP)&lt;/b&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp;(Sequence-to-sequence models, attention mechanisms, Transformers)" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="160" y="720" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fnUQDuPU55SN1gFDPcQX-13" target="fnUQDuPU55SN1gFDPcQX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-13" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;Neural Machine Translation (NMT)&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;(Encoder–decoder models, Transformers, breakthroughs in AI language models)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="160" y="840" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnUQDuPU55SN1gFDPcQX-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt; Modern Integrated ML &amp;amp; AI Systems&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; &amp;nbsp;(General AI, robotics, autonomous systems, multi-domain applications)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="160" y="960" width="380" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

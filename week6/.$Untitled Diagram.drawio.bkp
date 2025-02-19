@@ -1,0 +1,112 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Backend Architectural Flow" id="kvCQLZ44zK-ajTmNyjjR">
+    <mxGraphModel dx="954" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FMpDtysTQIo8iI9I68VC-4" value="App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-13" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-14" value="AWS Lambda" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-15" value="AWS Cognito" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="240" as="sourcePoint" />
+            <mxPoint x="420" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="280" as="sourcePoint" />
+            <mxPoint x="660" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="321" as="sourcePoint" />
+            <mxPoint x="900" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="380" as="sourcePoint" />
+            <mxPoint x="220" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-23" value="1. POST &lt;br&gt;/signup&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="200" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-24" value="7. Forward &lt;br&gt;response&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-25" value="2. Route to&#xa; Lambda" style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="490" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-26" value="3. Parse &#xa;request" style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="740" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="440" as="sourcePoint" />
+            <mxPoint x="900" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-28" value="4. Call &#xa;Cognito" style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="400" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-30" value="5. Handle response  " style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="740" y="516" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-35" value="AWS Cognito" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FMpDtysTQIo8iI9I68VC-35" target="FMpDtysTQIo8iI9I68VC-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="360" as="sourcePoint" />
+            <mxPoint x="950" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-39" value="AWS Lambda" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-40" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-41" value="App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FMpDtysTQIo8iI9I68VC-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.47" y="410" as="sourcePoint" />
+            <mxPoint x="659.47" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FMpDtysTQIo8iI9I68VC-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419.47" y="410" as="sourcePoint" />
+            <mxPoint x="419.47" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FMpDtysTQIo8iI9I68VC-41" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="620" as="sourcePoint" />
+            <mxPoint x="179.47000000000003" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMpDtysTQIo8iI9I68VC-50" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="560" as="sourcePoint" />
+            <mxPoint x="660" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
