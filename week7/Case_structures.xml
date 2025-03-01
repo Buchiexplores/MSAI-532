@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2025-02-21T00:00:00.000Z" agent="ChatGPT" version="1.0">
+  <diagram id="caseStructure" name="Case Structure Representation">
+    <mxGraphModel dx="724" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- EVENT Node -->
+        <mxCell id="2" value="EVENT: THINK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <!-- AGENT Node -->
+        <mxCell id="3" value="AGENT: I" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- POLARITY Node -->
+        <mxCell id="4" value="POLARITY: NEGATIVE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <!-- THEME Node -->
+        <mxCell id="5" value="THEME: it" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Edges -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" source="2" target="3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" source="2" target="4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" source="2" target="5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

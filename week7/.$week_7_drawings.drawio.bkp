@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="obCTP-YywCBmavY1qwAW">
+    <mxGraphModel dx="763" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R-7LDKWfpGomUp9EXy83-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="210" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-28" value="&lt;font&gt;S&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="R-7LDKWfpGomUp9EXy83-39">
+          <mxGeometry x="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-29" value="(Implicit NP)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="R-7LDKWfpGomUp9EXy83-39">
+          <mxGeometry y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-30" value="VP" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="R-7LDKWfpGomUp9EXy83-39">
+          <mxGeometry x="150" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-31" value="AdvP&#xa;&quot;Nunca&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="R-7LDKWfpGomUp9EXy83-39">
+          <mxGeometry x="100" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-32" value="V&#xa;&quot;pienso&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="R-7LDKWfpGomUp9EXy83-39">
+          <mxGeometry x="200" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-33" value="NP&#xa;&quot;lo&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="R-7LDKWfpGomUp9EXy83-39">
+          <mxGeometry x="300" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="R-7LDKWfpGomUp9EXy83-39" source="R-7LDKWfpGomUp9EXy83-28" target="R-7LDKWfpGomUp9EXy83-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="R-7LDKWfpGomUp9EXy83-39" source="R-7LDKWfpGomUp9EXy83-28" target="R-7LDKWfpGomUp9EXy83-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="R-7LDKWfpGomUp9EXy83-39" source="R-7LDKWfpGomUp9EXy83-30" target="R-7LDKWfpGomUp9EXy83-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="R-7LDKWfpGomUp9EXy83-39" source="R-7LDKWfpGomUp9EXy83-30" target="R-7LDKWfpGomUp9EXy83-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="R-7LDKWfpGomUp9EXy83-39" source="R-7LDKWfpGomUp9EXy83-30" target="R-7LDKWfpGomUp9EXy83-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-7LDKWfpGomUp9EXy83-40" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;line-height:200%&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,serif&quot;&gt;Original Spanish Parse Tree&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

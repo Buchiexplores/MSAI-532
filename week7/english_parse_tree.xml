@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2025-02-21T00:00:00.000Z" agent="ChatGPT" version="1.0">
+  <diagram id="englishParseTree" name="English Parse Tree">
+    <mxGraphModel dx="724" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- S Node -->
+        <mxCell id="2" value="S" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- NP Node (Subject) -->
+        <mxCell id="3" value="NP&#10;I" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <!-- VP Node -->
+        <mxCell id="4" value="VP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- AdvP Node -->
+        <mxCell id="5" value="AdvP&#10;&quot;never&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- V' Node -->
+        <mxCell id="6" value="V&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- V Node -->
+        <mxCell id="7" value="V&#10;&quot;think&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- NP Node (Object) -->
+        <mxCell id="8" value="NP&#10;&quot;it&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Edges -->
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="2" target="3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="2" target="4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="4" target="5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="4" target="6" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="6" target="7" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="6" target="8" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

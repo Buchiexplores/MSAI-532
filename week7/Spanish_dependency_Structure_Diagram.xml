@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net" modified="2025-02-21T00:00:00.000Z" agent="ChatGPT" version="1.0">
+  <diagram id="spanishDependency" name="Spanish Dependency Structure">
+    <mxGraphModel dx="724" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Root: pienso -->
+        <mxCell id="2" value="pienso" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- advmod: nunca -->
+        <mxCell id="3" value="nunca (advmod)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- dobj: lo -->
+        <mxCell id="4" value="lo (dobj)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Edges -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" source="2" target="3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" source="2" target="4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
